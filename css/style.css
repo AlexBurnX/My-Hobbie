@@ -1,0 +1,91 @@
+body { 
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar {
+	padding: 5px 100px;
+    background-color: #2B2D32;
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+}
+.navbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar-logo {
+	display: inline-block;
+	padding: 9px;
+	font: 600 30px system-ui;
+	color: #FFFFFF;
+}
+.navbar-menu {
+	margin: 0;
+    padding: 0;
+	float: right;
+    list-style: none;
+}
+.navbar-menu li {
+	display: inline-block;
+}
+.navbar-menu a {
+	display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 2px;
+    font: 600 16px system-ui;
+    color: #F0EAD6;
+    transition: .3s linear;
+}
+.navbar-menu a:hover {
+	background-color: #3E4148;
+    color: #F5E387;
+	border-radius: 7px;
+	opacity: 1;
+}
+
+.content {
+	margin: 50px 400px;
+}
+.content h1 {
+	font: 600 26px system-ui;
+	color: #2B2D32;
+}
+.content p {
+	padding: 10px 0px;
+	white-space: pre-wrap;
+	font: 400 16px system-ui;
+	color: #2B2D32;
+}
+.content hr {
+	height: 1px;
+    background-color: #DDE2EB;
+    border: none;
+}
+.content img.index {
+	float: left;
+	margin: 15px 20px 15px 0px;
+	border-radius: 7px;
+	width: 500px;
+}
+.content img.about {
+	float: left;
+	margin: 15px 20px 15px 0px;
+	border-radius: 7px;
+	width: 400px;
+}
+.content img.contacts {
+	float: left;
+	margin: 15px 20px 15px 0px;
+	border-radius: 7px;
+	width: 500px;
+}
+ul.contacts {
+	position: relative;
+	left: 15px;
+	padding: 10px;
+	font: 400 16px system-ui;
+	list-style: inside;
+	color: #709693;
+}
